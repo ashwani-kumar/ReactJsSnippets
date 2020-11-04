@@ -102,4 +102,4 @@ This approach is pretty generic and can be applied to any component, such as tex
     };
     export default ProtectedRoute;
     ```
-In this case add routes to rules just like actions, and motify `usesPermission` method to check and return `isRouteAccessible`.
+In this case add routes to rules just like actions, and modify `usesPermission` method to check and return `isRouteAccessible`.
